@@ -15,7 +15,7 @@ document.getElementById("circle").onclick=function() {
 }
 
 function changeColor() {
-    document.getElementById("circle").style.backgroundColor="green";
+    document.getElementById("circle").style.backgroundColor="#00FF00";
 }
 
 function getTime() {
