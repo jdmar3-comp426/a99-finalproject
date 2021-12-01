@@ -1,12 +1,12 @@
 
-#circle {
+#circlegame {
         width: 200px;
         height: 200px;
         border-radius: 50%;
         background: red;
 }
 
-.button{
+.buttongame{
         position: fixed;
         top: 50%;
         left: 50%;
