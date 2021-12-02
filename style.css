@@ -1,9 +1,11 @@
 
-#circlegame {
+ /* DONT TOUCH THIS PLEASE*/
+#circle {
         width: 200px;
         height: 200px;
-        border-radius: 50%;
-        background: red;
+        border-radius: 100px;
+        background-color: red;
+        position: relative; 
 }
 
 .buttongame{
