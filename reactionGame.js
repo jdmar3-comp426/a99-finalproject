@@ -4,7 +4,7 @@ function circleGenerator() {
     var icon = document.getElementById("circlegame");
 
     var randomTime = (Math.random() * 0.456);
-    start=Date.now() + randomTime;
+    start=Date.now();
     setTimeout(changeColor(), randomTime);
 }
 
