@@ -11,9 +11,9 @@ app.use(express.json());
 
 // CREATE a new user (HTTP method POST)
 app.post("/app/new",  (req, res) => {
-	const stmt = db.prepare("INSERT INTO userinfo (user, pass) VALUES (?, ?)");
-	const info = stmt.run(req.body.user, md5(req.body.pass));
-	res.status(201).json({"message": info.changes+ " record created: ID " +info.lastInsertRowid + " (201)"});
+	const stmt = db.prepare("INSERT INTO userinfo (user, pass, score) VALUES (?, ?, ?)");
+	const info = stmt.run(req.body.user, md5(req.body.pass), 0);
+	res.status(201).json({"message": info.changes+ " record created: Username " + req.body.user + " (201)"});
 });
 // READ a list of all users (HTTP method GET)
 app.get("/app/users", (req, res) => {	
@@ -22,21 +22,21 @@ app.get("/app/users", (req, res) => {
 });
 
 // READ a single user (HTTP method GET) 
-app.get("/app/user/:id", (req, res) => {	
-	const stmt = db.prepare("SELECT * FROM userinfo WHERE id = ?").get(req.params.id);
+app.get("/app/user/:user", (req, res) => {	
+	const stmt = db.prepare("SELECT * FROM userinfo WHERE user = ?").get(req.params.user);
 	res.json(stmt);
 	res.status(200);
 });
 // UPDATE a single user (HTTP method PATCH)
-app.patch("/app/update/user/:id", (req, res) => {	
-	const stmt = db.prepare("UPDATE userinfo SET user = COALESCE(?,user), pass = COALESCE(?,pass) WHERE id = ?"
+app.patch("/app/update/user/:user", (req, res) => {	
+	const stmt = db.prepare("UPDATE userinfo SET user = COALESCE(?,user), pass = COALESCE(?,pass), score = COALESCE(?,score) WHERE user = ?"
 	);
-	const info = stmt.run(req.body.user, md5(req.body.pass), req.params.id);
-	res.status(200).json({"message": info.changes+ " record updated: ID " +req.params.id + " (200)"});
+	const info = stmt.run(req.body.user, md5(req.body.pass), req.body.score, req.params.user);
+	res.status(200).json({"message": info.changes+ " record updated: Username " +req.params.user + " (200)"});
 });
 // DELETE a single user (HTTP method DELETE)
-app.delete("/app/delete/user/:id", (req, res) => {	
-	const stmt = db.prepare("DELETE FROM userinfo WHERE id = ?");
-	const info = stmt.run(req.params.id);
-	res.status(200).json({"message": info.changes+ " record deleted: ID " +req.params.id + " (200)"});
+app.delete("/app/delete/user/:user", (req, res) => {	
+	const stmt = db.prepare("DELETE FROM userinfo WHERE user = ?");
+	const info = stmt.run(req.params.user);
+	res.status(200).json({"message": info.changes+ " record deleted: Username " +req.params.user + " (200)"});
 });
