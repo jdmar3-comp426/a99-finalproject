@@ -3,7 +3,7 @@ var click; var start; var reaction;
 function circleGenerator() {
     var icon = document.getElementById("circlegame");
 
-    var randomTime = (Math.random() * 6500);
+    var randomTime = (Math.random() * 0.456);
     start=Date.now() + randomTime;
     setTimeout(changeColor(), randomTime);
 }
@@ -11,7 +11,7 @@ function circleGenerator() {
 document.getElementById("circlegame").onclick=function() {
     click=Date.now();
     reaction=(click - start)/1000;
-    document.getElementById("reaction").innerHTML="HI aubrie" + reaction;
+    document.getElementById("circlegame").style.backgroundColor("#00FF00");
 }
 
 function changeColor() {
