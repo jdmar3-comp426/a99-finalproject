@@ -1,3 +1,30 @@
+COMP 426 Final Project - Team finalproject
+Members - Aubrie Barnhart, Emma Drew, Manuela Danso-Fordjour, Peter Romero & Xavier Prat Fernandez
+
+# a99 Finally
+
+Our team created a game that tests user's reaction speed by clicking on a circle when it turns green.
+We require users to log in or sign up to our website before playing the game to store their information
+in a database and post their scores to a leaderboard. 
+
+# Technical Documentation
+
+# HTML & CSS
+
+Our game has three different HTML pages, a homepage, a leaderboard screen and a page to play the game. 
+We used bulma to style our website using different classes that we learned from a02 and Bulma documentation.
+Additionally, we created a log in and sign up section to input people's usernames and passwords to store
+in our database.
+
+# Javascript
+
+
+# API
+
+
+EVERYTHING UNDER IS INSTRUCTIONS
+
+
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6467038&assignment_repo_type=AssignmentRepo)
 # a99 Finally
 

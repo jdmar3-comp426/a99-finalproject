@@ -1,18 +1,18 @@
 Team roles and tasks:
-- Aubrie Barnhart
+- Aubrie Barnhart - Database Lead
     - Created javascript functions
     - Worked on API S
     - Worked on Storing user data information
-- Emma Drew
+- Emma Drew - Back End Lead
     - Created javascript functions
     - Incorporated javascrip functions into HTML
-- Manuela Danso-Fordjour
+- Manuela Danso-Fordjour - Back End Lead
     - Worked on API
     - Created javascript functions
     - Organized documentation
-- Peter Romero
+- Peter Romero - Front End Lead 
     - Created structure of HTML files
     - Worked on storing user data information
-- Xavier Prat Fernandez
+- Xavier Prat Fernandez - Design Lead
     - Created structure of HTML files
     - Used CSS to style website
