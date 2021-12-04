@@ -1,5 +1,7 @@
-COMP 426 Final Project - Team finalproject
-Members - Aubrie Barnhart, Emma Drew, Manuela Danso-Fordjour, Peter Romero & Xavier Prat Fernandez
+# COMP 426 Final Project - Team finalproject
+Members - 
+Aubrie Barnhart Emma Drew Manuela Danso-Fordjour - Back End Leads
+Peter Romero & Xavier Prat Fernandez - Front End Leads
 
 # a99 Finally
 
