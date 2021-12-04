@@ -41,6 +41,22 @@ app.delete("/app/delete/user/:user", (req, res) => {
 	res.status(200).json({"message": info.changes+ " record deleted: Username " +req.params.user + " (200)"});
 });
 
+app.post("/app/login/", (req,res) => {
+	const stmt = db.prepare("SELECT * FROM userinfo WHERE username = ? AND password = ?");
+	const info = stmt.get(req.body.username, req.body.password);
+    if (info !== undefined) {
+        res.status(200).json({
+            "result": "success",
+            "message": req.body.username + " logged-in!"
+        });    
+    } else {
+        res.status(200).json({
+            "result": "failure",
+            "message": "This username password combination doesn't exist"
+        });  
+    }
+})
+
 // Default response for any other request
 app.use(function(req, res){
 	res.json({"message":"Endpoint not found. (404)"});
