@@ -6,13 +6,37 @@
         <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
         <link rel="stylesheet" href="style.css">
     </head>
+    <section>
     <title>Reaction Game!</title>
-        <section class="">
+</section>
+<body>
+<section class = "hero is-dark">
+    <div class= "hero-body">
+    <h1 class="title has-text-centered has-text-weight-bold">Reaction Game!</h1>
+    </div>
+</section>
+<section class ="section">
+    <div class = "container">
+        <div class = "columns">
+            <div class = "column">
+<h2 class="title">The Reaction Time Kings!</h2>                
+<h2><a href="leaderboards.html">Link to leaderboard!</a></h2>                
+<img class="image is-128x128 is-rounded"src="https://thumbs.dreamstime.com/b/golden-cartoon-crown-royal-badge-king-symbol-queen-sign-design-element-vector-golden-cartoon-crown-royal-badge-king-symbol-queen-119241627.jpg" alt="leaderboard">
+
+            </div>
+            <div class = "column">
+<h2 class="title">Click to test your reaction time!</h2>
+<h2><a href="game.html">Click to play the game!</a></h2>
+<img class="image is-128x128 is-rounded"src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ski_trail_rating_symbol-green_circle.svg/1200px-Ski_trail_rating_symbol-green_circle.svg.png" alt = "reaction game">
+        </div>  
+    </div>
+</section>
+        <section class="section">
             <div class="container">
                 <div class="columns">
                     <div class="column">  
-        <h1>Reaction Login</h1>
-        <form>  
+        <h1 class="subtitle has-text-weight-bold">Login</h1>
+        <form id="loginform">  
             <div class="field">
                 <label class="label">Username</label>
                     <div class="control">   
@@ -27,12 +51,17 @@
                     <button class = "Log in">Log In</button>
                     
                    
+                    <div class="field">
+                        <div class="control">
+                            <button class="button is-dark" type="submit">Login</button> 
+                        </div>
+                        </div>
                             </div>               
         </form>
                     </div>
                     <div class="column">
-                        <h1 class="title has-text-weight-bold">Signup</h1>
-                        <form>
+                        <h1 class="subtitle has-text-weight-bold">Signup</h1>
+                        <form id="signupform">
                             <div class="field">
                                 <label class="label">Username</label>
                                 <div class="control">
@@ -52,12 +81,16 @@
                                     <button class = "submit">Sumbit</button>
                                 </div>
                             </div>
+                            <div class="field">
+                            <div class="control">
+                                <button class="button is-dark" type="submit">Create Account</button> 
+                            </div>
+                            </div>
                         </form>
                     </div>    
                 </div>
             </div>    
         </section>
-    <h2><a href="leaderboards.html">Click to see our best players!</a></h2>
-    <h2><a href="game.html">Click to play the game!</a></h2>
+    </body>  
 </html>
 
