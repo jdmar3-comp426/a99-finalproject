@@ -41,7 +41,8 @@ app.delete("/app/delete/user/:user", (req, res) => {
 	res.status(200).json({"message": info.changes+ " record deleted: Username " +req.params.user + " (200)"});
 });
 
-app.post("/app/login/", (req,res) => {
+// LOGIN a user with a given username and password (at endpoint /app/login/:username/:password)
+app.post("/app/login/:username/:password", (req,res) => {
 	const stmt = db.prepare("SELECT * FROM userinfo WHERE username = ? AND password = ?");
 	const info = stmt.get(req.body.username, req.body.password);
     if (info !== undefined) {
