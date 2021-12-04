@@ -40,3 +40,16 @@ app.delete("/app/delete/user/:user", (req, res) => {
 	const info = stmt.run(req.params.user);
 	res.status(200).json({"message": info.changes+ " record deleted: Username " +req.params.user + " (200)"});
 });
+
+// Default response for any other request
+app.use(function(req, res){
+	res.json({"message":"Endpoint not found. (404)"});
+    res.status(404);
+});
+
+// Tell STDOUT that the server is stopped
+process.on('SIGTERM', () => {
+	server.close(() => {
+		console.log('Server stopped.')
+	})
+})
