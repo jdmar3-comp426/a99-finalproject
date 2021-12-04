@@ -1,13 +1,13 @@
 # COMP 426 Final Project - Team finalproject
 Members - 
-BACKEND LEADS:
-Aubrie Barnhart 
-Emma Drew
-Manuela Danso-Fordjour 
+BACKEND LEADS: \
+Aubrie Barnhart \
+Emma Drew \
+Manuela Danso-Fordjour \
 
-FRONT END LEADS:
-Peter Romero 
-Xavier Prat Fernandez
+FRONT END LEADS: \
+Peter Romero \
+Xavier Prat Fernandez \
 
 # a99 Reaction Game
 
@@ -19,7 +19,7 @@ The front includes reactionGame.js
 ## Back End 
 The back end includes forms.js, database.js,
 ## Dependencies 
-Browersync
+Browersync \
 Bulma
 
 
