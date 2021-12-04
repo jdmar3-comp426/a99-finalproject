@@ -1,0 +1,18 @@
+Team roles and tasks:
+- Aubrie Barnhart
+    - Created javascript functions
+    - Worked on API S
+    - Worked on Storing user data information
+- Emma Drew
+    - Created javascript functions
+    - Incorporated javascrip functions into HTML
+- Manuela Danso-Fordjour
+    - Worked on API
+    - Created javascript functions
+    - Organized documentation
+- Peter Romero
+    - Created structure of HTML files
+    - Worked on storing user data information
+- Xavier Prat Fernandez
+    - Created structure of HTML files
+    - Used CSS to style website
