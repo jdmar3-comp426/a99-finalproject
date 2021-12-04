@@ -1,0 +1,14 @@
+#### Technical Documentation
+# HTML & CSS
+Our game has three different HTML pages: a homepage (index.html), a leaderboard screen (leaderboards.html), and a page to play the game (game.html). We used bulma to style our website using different classes that we learned from a02 and Bulma documentation (style.css). Additionally, we created a login and sign up function to input people's usernames and passwords for storage in our database.
+# Javascript
+We used a Javascript file to develop the functionality of our reaction game, as well as three other Javascript files to manage our API database (including server.js, database.js, and form.js).
+# API
+Our API is managed by three of our Javascript files (database.js, form.js, and server.js). Additionally, we have a database file called user.db that is created upon running the code on a local host).
+
+#### Required Dependencies
+Bulma, Browsersync
+
+#### Must have Node Version 16 installed
+Enter the following command: node -v
+The expected output is v16.13.0
