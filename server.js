@@ -56,3 +56,16 @@ app.post("/app/login/", (req,res) => {
         });  
     }
 })
+
+// Default response for any other request
+app.use(function(req, res){
+	res.json({"message":"Endpoint not found. (404)"});
+    res.status(404);
+});
+
+// Tell STDOUT that the server is stopped
+process.on('SIGTERM', () => {
+	server.close(() => {
+		console.log('Server stopped.')
+	})
+})
