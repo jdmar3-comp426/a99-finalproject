@@ -17,7 +17,7 @@ Our API creates a database of users (user.db) that is managed by our server.js f
 ## Dependencies 
 Browersync, Bulma
 ## Technical Documentation
-See /docs/techDoc.txt for more information on HTML, JS and API technicals
+[click here](https://github.com/jdmar3-comp426/a99-finalproject/blob/main/docs/techDoc.txt) for more information on HTML, JS and API technicals
 ## How to Use this Site
 1. Clone the A99-FINALPROJECT repository to begin.
 2. In visual studio code, you may view many of the files that we have created.
