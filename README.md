@@ -31,6 +31,8 @@ Our game has three different HTML pages: a homepage (index.html), a leaderboard 
 We used a Javascript file to develop the functionality of our reaction game, as well as three other Javascript files to manage our API database (including server.js, database.js, and form.js).
 # API
 Our API is managed by three of our Javascript files (database.js, form.js, and server.js). Additionally, we have a database file called user.db that is created upon running the code on a local host).
+# DEMO
+Check out a quick walkthrough of our game! => https://www.youtube.com/watch?v=rwE6hR7VwcM
 
 ##### How to Use this Site
 1. Clone the A99-FINALPROJECT repository to begin.

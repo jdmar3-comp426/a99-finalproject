@@ -3,9 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
-        <link rel="stylesheet" href="style.css">
-        <script src="form.js"></script>
+        <link rel="stylesheet" href="/css/bulma.css">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <section>
     <title>Reaction Game!</title>
@@ -19,10 +18,16 @@
 </section>
 <section class ="section">
     <div class = "container">
+        <div class = "columns">
+            <div class = "column">
+
+            </div>
+            <div class = "column">
 <!--Link to play the game-->
 <h2 class="title">Click to test your reaction time!</h2>
-<h2><a href="game.html">Click to play the game!</a></h2>
-<img class="image is-128x128 is-rounded"src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ski_trail_rating_symbol-green_circle.svg/1200px-Ski_trail_rating_symbol-green_circle.svg.png" alt = "reaction game">  
+<h2><a href="/game">Click to play the game!</a></h2>
+<img class="image is-128x128 is-rounded"src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ski_trail_rating_symbol-green_circle.svg/1200px-Ski_trail_rating_symbol-green_circle.svg.png" alt = "reaction game">
+        </div>  
     </div>
 </section>
         <section class="section">
@@ -31,26 +36,24 @@
                     <div class="column">  
 <!--Submit form-->
         <h1 class="subtitle has-text-weight-bold">Login</h1>
-        <form id="loginform">  
+        <form id="loginform" action="http://localhost:8080/login" method="post">  
             <div class="field">
                 <label class="label">Username</label>
                     <div class="control">   
-            <input class="input" type="text" placeholder="email" name="username">
+            <input class="input" type="text" placeholder="email" name="Username">
             </div>
                     </div>   
             <div class="field">
                 <label class="label">Password</label>
                      <div class="control">   
-             <input class="input" type="password" placeholder="password123" name="password">
+             <input class="input" type="password" placeholder="password123" name="Password">
                     </div>
                     
-                    
-                   
                     <div class="field">
                         <div class="control">
                             <!--Working on editing this stupid button-->
-                             <button onlcick="form.js" class="button is-dark" type="submit">Login</button> 
-                        
+                             <input src="form.js" class="button is-dark" type="submit" value="Login">
+        
                         </div>
                         </div>
                             </div>               
@@ -59,28 +62,22 @@
                     <div class="column">
 <!--Signup form-->
                         <h1 class="subtitle has-text-weight-bold">Signup</h1>
-                        <form id="signupform">
+                        <form id="signupform" action="http://localhost:8080/register" method="POST">
                             <div class="field">
                                 <label class="label">Username</label>
                                 <div class="control">
-                                    <input class="input" type="text" placeholder="email" name="username">
+                                    <input class="input" type="text" placeholder="email" name="Username">
                                 </div>
                             </div>
                             <div class="field">
                                 <label class="label">Password</label>
                                 <div class="control">
-                                    <input class="input" type="password" placeholder="password123" name="password1">
-                                </div>
-                            </div>
-                            <div class="field">
-                                <label class="label">Repeat Password</label>
-                                <div class="control">
-                                    <input class="input" type="password" placeholder="password123" name="password2">
+                                    <input class="input" type="password" placeholder="password123" name="Password1">
                                 </div>
                             </div>
                             <div class="field">
                             <div class="control">
-                                <button class="button is-dark" type="submit">Create Account</button> 
+                                <input src="form.js" class="button is-dark" type="submit" value="Create Account">
                             </div>
                             </div>
                         </form>
