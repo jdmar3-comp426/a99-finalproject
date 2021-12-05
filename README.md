@@ -1,7 +1,7 @@
 # COMP 426 Final Project - Team finalproject
 ## Reaction Time Game
 Members: Aubrie Barnhart, Emma Drew, Manunela Danso-Fordjour, Peter Romero, Xavier Prat Fernandez
-See /docs/teamRoles.txt for more information
+/ See for more information
 [click here](https://github.com/jdmar3-comp426/a99-finalproject/blob/main/docs/teamRoles.txt)
 
 ## How does it work?
