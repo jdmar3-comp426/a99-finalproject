@@ -3,11 +3,11 @@ Members -
 BACKEND LEADS: \
 Aubrie Barnhart \
 Emma Drew \
-Manuela Danso-Fordjour \
+Manuela Danso-Fordjour 
 
 FRONT END LEADS: \
 Peter Romero \
-Xavier Prat Fernandez \
+Xavier Prat Fernandez 
 
 #### a99 Reaction Game
 # How does it work?
