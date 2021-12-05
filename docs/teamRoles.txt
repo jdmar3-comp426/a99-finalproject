@@ -12,7 +12,7 @@ Team Roles and Tasks:
     - Worked on Storing user data information
 - Emma, Game Lead
     - Created javascript functions
-    - Incorporated javascrip functions into HTML
+    - Incorporated javascript functions into HTML
     - Developed game functionality
 - Manuela, Back End Lead
     - Worked on API
