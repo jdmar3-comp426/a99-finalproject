@@ -13,7 +13,7 @@ Xavier Prat Fernandez \
 # How does it work?
 Our team created a game that tests users' reaction speed by clicking on a circle when it turns green.
 We require users to log in or sign up to our website before playing the game to store their information (username, password, and score) in a database and post their scores to a leaderboard. 
-![Photodemonstration]("Reaction Game Screeshot.png")
+![Photodemonstration](./RGScreenshot.png)
 ## Front End 
 The front includes reactionGame.js, game.html, index.html, leaderboards.html, and style.css.
 Our main page is our index.html page, which features the ability to either login to your account or sign up for a profile if you don't already have one. Additionally, you can either visit the leaderboard to view other players' top scores or go to the game page to try it for yourself.
