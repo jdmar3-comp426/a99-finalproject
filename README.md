@@ -3,7 +3,7 @@
 Members: Aubrie Barnhart, Emma Drew, Manunela Danso-Fordjour, Peter Romero, Xavier Prat Fernandez
 See /docs/teamRoles.txt for more information
 
-# How does it work?
+## How does it work?
 Our team created a game that tests users' reaction speed by clicking on a circle when it turns green.
 We require users to log in or sign up to our website before playing the game to store their information (username, password, and score) in a database and post their scores to a leaderboard. 
 
