@@ -1,5 +1,5 @@
 ##### How to Use this Site
-1. Clone the A99-FINALPROJECT repository and store it in a directory to begin.
+1. Clone the A99-FINALPROJECT repository and store it in a directory to begin. 
 2. In visual studio code, you may view many of the files that we have created.
 3. In terminal, make sure you are in the directory for this project, then run the following command: npm install browser-sync better-sqlite3 concurrently md5 node-js
 4. Now you should have the required dependencies in your own repository if you didn't already have them installed. Now, run the following command: npm run start
