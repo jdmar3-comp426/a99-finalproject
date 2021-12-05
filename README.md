@@ -1,5 +1,5 @@
 # COMP 426 Final Project - Team finalproject
-#### Reaction Time Game
+## Reaction Time Game
 Members: Aubrie Barnhart, Emma Drew, Manunela Danso-Fordjour, Peter Romero, Xavier Prat Fernandez
 See /docs/teamRoles.txt for more information
 
@@ -17,7 +17,7 @@ Our API creates a database of users (user.db) that is managed by our server.js f
 Browersync, Bulma
 ## Technical Documentation
 See /docs/techDoc.txt for more information on HTML, JS and API technicals
-### How to Use this Site
+## How to Use this Site
 1. Clone the A99-FINALPROJECT repository to begin.
 2. In visual studio code, you may view many of the files that we have created.
 3. In terminal, run the following command: npm install browser-sync
