@@ -34,7 +34,9 @@ Our API is managed by three of our Javascript files (database.js, form.js, and s
 # DEMO
 Check out a quick walkthrough of our game! => https://www.youtube.com/watch?v=rwE6hR7VwcM
 
-##### How to Use this Site
+
+
+# How to Use this Site
 1. Clone the A99-FINALPROJECT repository to begin.
 2. In visual studio code, you may view many of the files that we have created.
 3. In terminal, run the following command: npm install browser-sync
