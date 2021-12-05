@@ -2,7 +2,7 @@
 ## Reaction Time Game
 Members: Aubrie Barnhart, Emma Drew, Manunela Danso-Fordjour, Peter Romero, Xavier Prat Fernandez
 See /docs/teamRoles.txt for more information
-[a link]https://github.com/jdmar3-comp426/a99-finalproject/blob/main/docs/teamRoles.txt
+https://github.com/jdmar3-comp426/a99-finalproject/blob/main/docs/teamRoles.txt
 
 ## How does it work?
 Our team created a game that tests users' reaction speed by clicking on a circle when it turns green.
