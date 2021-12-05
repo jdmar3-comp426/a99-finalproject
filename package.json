@@ -4,13 +4,19 @@
   "description": "Final project for comp426",
   "main": "reactionGame.js",
   "dependencies": {
+    "better-sqlite3": "^7.4.5",
     "browser-sync": "^2.27.7",
-    "bulma": "^0.9.3"
+    "bulma": "^0.9.3",
+    "concurrently": "^6.4.0",
+    "md5": "^2.3.0",
+    "node-js": "^1.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "client": "npx browser-sync start -sw",
+    "server": "node server.js"
   },
+  "proxy": "http://localhost:8000",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jdmar3-comp426/a99-finalproject.git"
