@@ -17,7 +17,7 @@ Our API creates a database of users (user.db) that is managed by our server.js f
 Browersync, Bulma
 ## Technical Documentation
 See /docs/techDoc.txt for more information on HTML, JS and API technicals
-##### How to Use this Site
+### How to Use this Site
 1. Clone the A99-FINALPROJECT repository to begin.
 2. In visual studio code, you may view many of the files that we have created.
 3. In terminal, run the following command: npm install browser-sync
