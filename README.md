@@ -21,7 +21,7 @@ Our main page is our index.html page, which features the ability to either login
 The back end includes forms.js, database.js, user.db, and server.js
 Our API creates a database of users (user.db) that is managed by our server.js file. Input into this database is linked via our form.js file.
 ## Dependencies 
-Browersync, Bulma
+Browersync, Bulma, Express, MD5, better-sqlite and concurrently
 
 
 #### Technical Documentation
