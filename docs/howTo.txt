@@ -1,0 +1,10 @@
+##### How to Use this Site
+1. Clone the A99-FINALPROJECT repository and store it in a directory to begin. 
+2. In visual studio code, you may view many of the files that we have created.
+3. In terminal, make sure you are in the directory for this project, then run the following command: npm install browser-sync better-sqlite3 concurrently md5 node-js
+4. Now you should have the required dependencies in your own repository if you didn't already have them installed. Now, run the following command: npm run start
+5. This should set up our website in a local host, and you can visit this link to view our page: http://localhost:8080/
+6. You are now looking at the main page of our website! Your next steps are now up to you:
+    a. You may wish to login to an existing account via the Login feature.
+    b. ...Or you can create a new account if you don't already have one from the main page.
+    c. You can play the game yourself!

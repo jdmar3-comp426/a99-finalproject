@@ -1,54 +1,50 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6467038&assignment_repo_type=AssignmentRepo)
-# a99 Finally
+# COMP 426 Final Project - Team finalproject
+Members - 
+BACKEND LEADS: \
+Aubrie Barnhart \
+Emma Drew \
+Manuela Danso-Fordjour 
 
-COMP426 final project template repository. All your code and documentation goes here. Change this text to be a brief description of your final project. Put the name in the header above. You will change everything below to be the main technical documentation, as outlined below.
+FRONT END LEADS: \
+Peter Romero \
+Xavier Prat Fernandez 
 
-## First steps
+#### a99 Reaction Game
+# How does it work?
+Our team created a game that tests users' reaction speed by clicking on a circle when it turns green.
+We allow users to log in or sign up to our website before playing the game to store their information (username, password, and score) in a database.
+![Photodemonstration](./RGScreenshot.png)
+## Front End 
+The front includes reactionGame.js, game.html, index.html, and style.css.
+Our main page is our index.html page, which features the ability to either login to your account or sign up for a profile if you don't already have one. Additionally, you can go directly to the game page to try it for yourself.
+## Back End 
+The back end includes forms.js, database.js, user.db, and server.js
+Our API creates a database of users (user.db) that is managed by our server.js file. Input into this database is linked via our form.js file.
+## Dependencies 
+Browersync, Bulma, node-js, MD5, better-sqlite and concurrently
 
-Other steps that you will need to take after you have cloned this repository:
 
-1. Choose and update the LICENSE file accordingly. 
-2. Edit this README.md file and use it as the main location of your technical documentation with links out to information contained under `/docs/`.
-3. Create a `/docs/` directory for more elaborate documentation of your API, planning notes, etc.
-4. Make sure that all of your team members have access to the repository as administrators.
-5. Create a project under the **Projects** tab. Use this to manage your planning. Create a To-do list, etc. Explore the tools available and user them to manage your project.
-7. Assign team roles and include a listing of those roles in this README.md file or in another file under `/docs/`.
-8. Then put your entire development workflow in this repository.
-9. Use **Pull requests** to propose changes and incorporate them into your code from various team members. 
-10. Use **Issues** to identify and track bugs and also to communicate about various aspects of the project.
+#### Technical Documentation
+# HTML & CSS
+Our game has two different HTML pages: a homepage (index.html) and a page to play the game (game.html). We used bulma to style our website using different classes that we learned from a02 and Bulma documentation (style.css). Additionally, we created a login and sign up form to input people's usernames and passwords for storage in our database.
+# Javascript
+We used a Javascript file to develop the functionality of our reaction game, as well as three other Javascript files to manage our API database (including server.js, database.js, and form.js).
+# API
+Our API is managed by three of our Javascript files (database.js, form.js, and server.js). Additionally, we have a database file called user.db that is created upon running the code on a local host).
+# DEMO
+Check out a quick walkthrough of our game! => https://www.youtube.com/watch?v=rwE6hR7VwcM
 
-## Team mangement
 
-Plan to meet with your team ASAP.
-Talk through identifying roles within your team.
 
-Try to figure out what each of you are good at/enjoy doing and try to work out roles that incorporate that.
+# How to Use this Site
+1. Clone the A99-FINALPROJECT repository and store it in a directory to begin.
+2. In visual studio code, you may view many of the files that we have created.
+3. In terminal, run the following command: npm install browser-sync better-sqlite3 concurrently md5 node-js
+4. Now you should have the required dependencies in your own repository if you didn't already have them installed. Now, run the following command: npm run start
+5. Visit this link to view our page: http://localhost:8080/
+6. You are now looking at the main page of our website! Your next steps are now up to you:
+    a. You may wish to login to an existing account via the Login feature.
+    b. ...Or you can create a new account if you don't already have one from the main page.
+    c. You can go directly to the game page and play the game yourself!
 
-Some basic roles you will want to consider:
 
-1. A review manager - someone to review pull requests and merge or reject them and manage the related discussions
-2. A plan manager - someone to keep an eye on the overall plan and keep the project tab/to-do list up to date
-3. A documentation manager - someone to keep the documentation in order and identify what is missing and needs to be documented
-4. Roles for team members to take charge or different parts of the project. Possible roles:
-    1. Front end lead
-    2. Back end lead
-    3. Databse lead
-    4. Design lead
-    5. Etc.
-
-You will notice that there are more roles than people in your group.
-That is because you will all be doing a hybrid job of managing a thing while working on other things.
-
-## Check in with instructional staff
-
-Once all the groups are together, we'll assign each group to an LA to check in with as you progress through the project.
-
-We will post that so that your team can schedule a time for an initial check-in with your assigned LA. It would be a good idea also to add your LA to your repository.
-
-## Assignment instructions
-
-And that is about all you need to get started.
-
-All the rest of the assignment instructions are available at: https://comp426.johndmart.in/assignments/99
-
-Good skill, and have fun with this!

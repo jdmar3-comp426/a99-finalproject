@@ -1,0 +1,26 @@
+Team Members:
+- Aubrie Barnhart
+- Emma Drew
+- Manuela Danso-Fordjour
+- Peter Romero
+- Xavier Prat Fernandez
+
+Team Roles and Tasks:
+- Aubrie, Database Lead
+    - Created javascript functions
+    - Worked on API S
+    - Worked on Storing user data information
+- Emma, Game Lead
+    - Created javascript functions
+    - Incorporated javascript functions into HTML
+    - Developed game functionality
+- Manuela, Back End Lead
+    - Worked on API
+    - Created javascript functions
+    - Organized documentation
+- Peter, Front End Lead 
+    - Created structure of HTML files
+    - Worked on storing user data information
+- Xavier, Design Lead
+    - Created structure of HTML files
+    - Used CSS to style website

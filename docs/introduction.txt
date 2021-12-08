@@ -1,0 +1,16 @@
+Welcome to the Reaction game!
+The objective of this game is to click the circle as fast as you can when it turns green. 
+This game records your time and continuously runs so you can keep playing to beat your previous times!
+
+#### a99 Reaction Game
+# How does it work?
+Our team created a game that tests users' reaction speed by clicking on a circle when it turns green.
+We allow users to log in or sign up to our website before playing the game to store their information (username, password, and score) in a database.
+## Front End 
+The front includes reactionGame.js, game.html, index.html, leaderboards.html, and style.css
+Our main page is our index.html page, which features the ability to either login to your account or sign up for a profile if you don't already have one. Additionally, you can go to the game page to try it for yourself as a guest, without logging in or signing up.
+## Back End 
+The back end includes forms.js, database.js, user.db, and server.js
+Our API creates a database of users (user.db) that is managed by our server.js file. Input into this database is linked via our form.js file. Our database is created by the database.js file.
+## Dependencies 
+Browersync, Bulma, better-sqlite3, concurrently, md5, node-js
